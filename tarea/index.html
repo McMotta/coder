@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Pinturas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Tienda de Pinturas</div>
+    <nav>
+      <ul>
+        <li><a href="./html/servicios.html">Servicios</a></li>
+        <li><a href="./html/tienda.html">Pinturas</a></li>
+        <li><a href="./html/blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+   <!-- Primera sección (Hero) -->
+   <section class="hero">
+    <div class="hero-overlay">
+      <h1>Descubre el color perfecto para tu hogar</h1>
+      <a href="#pinturas" class="btn">Ver Pinturas</a>
+    </div>
+  </section>
+
+  <!-- Segunda sección (Servicios) -->
+  <section id="servicios" class="services">
+    <h2>Nuestros Servicios</h2>
+    <div class="service-container">
+      <div class="service">
+        <h3>Cuadros por encargo</h3>
+        <img src="./assets/un pintor haciendo una obra.png" alt="Servicio 1" class="service-img">
+        <p>Nuestros cuadros por encargo son obras únicas y personalizadas, creadas exclusivamente para ti. A través de un proceso colaborativo, transformamos tus ideas, recuerdos y sentimientos en una pieza de arte que refleja tu personalidad y gusto. Cada cuadro es una joya exclusiva, diseñada para ofrecerte una conexión emocional duradera y añadir un toque especial a tu espacio.</p>
+      </div>
+      <div class="service">
+        <h3>Retratos</h3>
+        <img src="./assets/una persona haciendo un retrato de otra persona.png " alt="Servicio 2" class="service-img">
+        <p>	Nuestros retratos por encargo son obras de arte personalizadas que capturan la esencia y personalidad de quienes más te importan. Mediante una colaboración cercana, transformamos tus recuerdos y emociones en una representación visual única y significativa. Cada retrato es una pieza exclusiva, diseñada para ofrecerte una conexión emocional profunda y duradera, ideal para adornar tu hogar o como un regalo especial que será apreciado para siempre.</p>
+        
+      </div>
+      <div class="service">
+        <h3>Clases de pintura</h3>
+        <img src="./assets/una persona enseñando a pintar a otra persona, realista.png" alt="Servicio 3" class="service-img">
+        <p>Nuestras clases de pintura por encargo están diseñadas para ofrecer una experiencia de aprendizaje personalizada y enriquecedora. Ya sea que seas un principiante o un artista avanzado, adaptamos nuestras lecciones para satisfacer tus necesidades y ayudarte a desarrollar tu estilo propio. Cada clase es una oportunidad para explorar técnicas, mejorar habilidades y descubrir nuevas formas de expresión artística en un ambiente creativo y motivador. Además, tendrás la oportunidad de trabajar en proyectos personalizados que reflejen tus intereses y aspiraciones artísticas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tercera sección (Pinturas - Slider) -->
+  <section id="pinturas" class="pinturas">
+    <h2>Nuestras Pinturas</h2>
+    <div class="slider-container">
+      <!-- Radio buttons para controlar el slider -->
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+
+      <!-- Slider Wrapper -->
+      <div class="slider">
+        <div class="slide" id="slider1">
+          <img src="./assets/Juan-Gris-cubism-1140x760.jpg" alt="Pintura 1" class="pintura-img">
+        </div>
+        <div class="slide" id="slider2">
+          <img src="./assets/OIP (1).jpeg" alt="Pintura 2" class="pintura-img">
+        </div>
+        <div class="slide" id="slider3">
+          <img src="./assets/OIP (2).jpeg" alt="Pintura 3" class="pintura-img">
+        </div>
+      </div>
+
+      <!-- Navegación de los sliders -->
+      <div class="slider-nav">
+        <label for="slide1" class="nav-dot"></label>
+        <label for="slide2" class="nav-dot"></label>
+        <label for="slide3" class="nav-dot"></label>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cuarta sección (Exhibiciones y Eventos) -->
+<section id="exhibiciones" class="exhibiciones">
+    <h2>Exhibiciones y Eventos</h2>
+    <div class="event-container">
+      <div class="event-poster">
+        <img src="./assets/un poster de un evento de galería de arte.png" alt="Póster del evento" class="poster-img">
+      </div>
+      <div class="event-info">
+        <h3>Exhibición de Pinturas Modernas</h3>
+        <p><strong>Fecha:</strong> 15 de Enero, 2024</p>
+        <p><strong>Hora:</strong> 7:00 PM</p>
+        <p><strong>Sitio:</strong> Galería de Arte Local, Bogotá</p>
+        <p><strong>Precio de Entrada:</strong> $20.000 COP</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quinta sección (Contacto) -->
+<section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p><strong>Dirección:</strong> Calle Ficticia 123, Oficina 456</p>
+        <p><strong>Ubicación:</strong> Galería de Arte Local</p>
+        <p><strong>Ciudad:</strong> Bogotá</p>
+        <p><strong>País:</strong> Colombia</p>
+        <p><strong>Teléfono:</strong> +57 123 456 789</p>
+        <p><strong>Correo:</strong> contacto@tiendapinturas.com</p>
+  
+        <div class="social-media">
+          <a href="#" class="social-icon"><img src="ruta/a/icono-facebook.png" alt="Facebook"></a>
+          <a href="#" class="social-icon"><img src="ruta/a/icono-twitter.png" alt="Twitter"></a>
+          <a href="#" class="social-icon"><img src="ruta/a/icono-instagram.png" alt="Instagram"></a>
+        </div>
+      </div>
+      
+      <div class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-info">
+        <p>&copy; 2024 Tienda de Pinturas. Todos los derechos reservados.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#pinturas">Pinturas</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+</body>
+</html>
